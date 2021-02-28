@@ -1,0 +1,144 @@
+.wrapper-body {
+  background-color: #490505;
+}
+
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  /* background: linear-gradient(to top, rgb(253, 213, 152) 10%, gold 150%)
+    no-repeat; */
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 21%;
+  width: auto;
+}
+
+.bbb_background {
+  background-color: #e0e0e0 !important;
+}
+
+div {
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bbb_deals_featured {
+  width: 100%;
+}
+
+.bbb_deals {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 1%;
+}
+
+.bbb_deals_slider_container {
+  width: 100%;
+}
+
+.bbb_deals_item {
+  width: 100% !important;
+}
+
+.bbb_deals_image {
+  width: 100%;
+}
+
+.bbb_deals_image img {
+  width: 100%;
+}
+
+.bbb_deals_content {
+  margin-top: 10%;
+}
+
+.bbb_deals_item_category a {
+  /* font-size: 14px; */
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.bbb_deals_item_price_a {
+  /* font-size: 14px; */
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.bbb_deals_item_price_a strike {
+  color: red;
+}
+
+.bbb_deals_item_name {
+  /* font-size: 24px; */
+  font-weight: 400;
+  color: #000000;
+}
+
+.bbb_deals_item_price {
+  /* font-size: 24px; */
+  font-weight: 500;
+  color: #6d6e73;
+}
+
+.available {
+  margin-top: 19px;
+}
+
+.available_title {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+
+.available_title span {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 991px) {
+  .bbb_deals {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .bbb_deals {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .bbb_deals_title {
+    left: 15px;
+    font-size: 16px;
+  }
+
+  .bbb_deals_slider_nav_container {
+    right: 5px;
+  }
+
+  .bbb_deals_item_name,
+  .bbb_deals_item_price {
+    font-size: 20px;
+  }
+}
